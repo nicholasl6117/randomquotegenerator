@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: lightgoldenrodyellow;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    border-bottom: 3px solid black;
+}
+
+header img {
+    max-width: 40px;
+    margin: 10px;
+}
+
+header h1 {
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    background-color: white;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+#quotation {
+    font-size: 120%;
+    margin: 10px;
+}
+
+#author {
+    margin: 0 20px 10px 20px;
+}
+
+#generate {
+    color: black;
+    background-color: yellow;
+    margin: 20px 10px 10px 10px;
+}
+
+footer {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+footer p {
+    padding: 10px;
+}
